@@ -866,6 +866,8 @@ Notice
 .notice ul.notice-footer li {
   font-size: 13px;
   display: inline-block;
+  font-size: 15px;
+  font-family: Rajdhani;
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -956,6 +958,7 @@ Notice
   background: url("../img/alliances-bg.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
+  font-family: NanumSquare;
 }
 .alliance-slider .container::before {
   content: "";
@@ -998,6 +1001,7 @@ Notice
 .alliance-slider p {
   color: #acb1b4;
   text-transform: uppercase;
+  font-size: 16px;
   letter-spacing: 0.5px;
 }
 
@@ -1052,7 +1056,7 @@ footer .footer-branding {
 }
 footer p {
   color: #acb1b4;
-  font-size: 13px;
+  font-size: 14px;
 }
 footer a {
   color: #fff;
