@@ -1102,3 +1102,11 @@ footer .footer-links {
 footer .footer-line {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+footer .itembay img {
+  width: 100px;
+}
+footer .imi img {
+  position: relative;
+  width: 90px;
+  top: -2px;
+}
