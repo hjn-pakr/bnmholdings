@@ -92,11 +92,14 @@ h5 {
   border-radius: 0px;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover {
   color: #fff;
   border-color: #7ae2de;
   background-color: #7ae2de;
+}
+.btn:focus {
+  color: #7ae2de;
+  border-color: #7ae2de;
 }
 .btn:active {
   color: #fff;
