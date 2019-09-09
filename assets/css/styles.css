@@ -563,6 +563,13 @@ Banner
 .banner h1 {
   color: #fff;
   font-size: 100.5px;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  word-break: keep-all;
+  white-space: normal;
+  -webkit-box-orient: vertical;
   /* font-weight: 600; */
   line-height: 1.03;
   text-transform: uppercase;
@@ -1140,6 +1147,7 @@ modal
 ========================================================================== */
 .modal {
   padding: 0 25px !important;
+  font-family: NanumSquare;
 }
 
 .modal-dialog {
