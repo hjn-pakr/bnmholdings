@@ -273,6 +273,11 @@
       margin-right: 0px;
     }
 
+    header ul.primary-nav li a {
+      margin-right: 0px;
+    }
+
+
     .features .device-showcase-left {
       position: absolute;
       bottom: -392px;

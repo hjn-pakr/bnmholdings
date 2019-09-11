@@ -599,7 +599,7 @@ Banner
 
 .fixed {
   position: fixed;
-  background-color: #202f66;
+  background-color: #000;
   z-index: 999;
   width: 100%;
 }
@@ -631,7 +631,7 @@ header ul.primary-nav li {
   display: inline-block;
 }
 header ul.primary-nav li a {
-  margin-right: 0px;
+  margin-right: 60px;
   font-weight: 700;
   position: relative;
   padding-bottom: 5px;
@@ -670,9 +670,9 @@ header .header-nav {
 
 .down-arrow {
   color: #fff;
-  font-size: 30px;
+  font-size: 50px;
   position: absolute;
-  bottom: 30px;
+  bottom: 80px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -1024,6 +1024,7 @@ Notice
   padding: 14px 32px;
   text-decoration: none;
   line-height: 1;
+  border-radius: 35px;
 }
 .btn.secondary:hover {
   color: #fff;
@@ -1091,7 +1092,7 @@ To top
 ========================================================================== */
 .to-top {
   height: 70px;
-  background-color: #2d3037;
+  background-color: #000;
 }
 .to-top .to-top-wrap {
   height: 50px;
@@ -1108,13 +1109,14 @@ To top
   height: 100%;
   color: #fff;
   font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.15);
-  /* border-radius: 50%; */
+  background-color: #2d3037;
+  border-radius: 50%;
   padding: 0 0 0 2px;
 }
 .to-top .to-top-wrap a:hover,
 .to-top .to-top-wrap a:focus {
-  background-color: rgba(0, 0, 0, 0.4);
+  color: #2d3037;
+  background-color: #7ae2de;
 }
 .to-top .to-top-wrap i {
   font-size: 30px;
@@ -1135,7 +1137,7 @@ footer {
   padding: 80px 0 50px 0;
 }
 .footer-bg {
-  background-color: #2d3037;
+  background-color: #000;
   font-family: NanumSquare;
 }
 footer .footer-branding {
@@ -1152,11 +1154,6 @@ footer a:hover {
   color: #7ae2de;
 }
 
-footer span.fa-heart {
-  color: #ff415c;
-  font-size: 15px;
-  margin: 0 2px;
-}
 footer .subsidiary {
   padding-top: 30px;
   text-align: right;
@@ -1243,6 +1240,7 @@ modal
   font-weight: 500;
   padding: 10px 20px;
   margin: 5px 2px;
+  border-radius: 35px;
 }
 .modal-popup .btn.btn-submit.mailto {
   border: 2px solid #202f66;
